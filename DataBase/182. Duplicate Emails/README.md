@@ -11,6 +11,7 @@ SELECT DISTINCT a.Email FROM Person a
 ```
 
 首先用子查询查出不重复的每一条记录，倘若原表不重复，那么原表与子查询必然可以关联，倘若有重复，那么至少有一条记录在子查询中找不到
+
 ------------------
 ```mysql
 SELECT DISTINCT a.Email
