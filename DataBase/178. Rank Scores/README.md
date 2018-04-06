@@ -19,6 +19,7 @@ ORDER BY Score desc
 ```
 <br>
 2.用子查询来统计当前的分数是第几大
+
 ```mysql
 SELECT
   Score,
